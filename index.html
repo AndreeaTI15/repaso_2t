@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1>Pokedex</h1>
+
+    <table>
+        <tr>
+            <td>
+                <img class="pokemon" src="img/bulbasur.png" alt="bulbasur">
+                <p class="nombre">Bulbasur</p>
+            </td>
+            <td>
+                <img class="pokemon" src="img/ivisaur.png" alt="ivysaur">
+                <p class="nombre">Ivysaur</p>
+            </td>
+            <td>
+                <img class="pokemon" src="img/venusaur.png" alt="venusaur">
+                <p class="nombre">Venusaur</p>
+            </td>
+            <td>
+                <img class="pokemon" src="img/Charmander.png" alt="charmander">
+                <p class="nombre">Charmander</p>
+            </td>
+        </tr>
+        <tr id="con_imagen_de_fondo">
+            <td id="charmeleon">
+                <p class="nombre">Charmeleon</p>
+            </td>
+            <td id="charizard">
+                <p class="nombre">Charizard</p>
+            </td>
+            <td id="squirtle">
+                <p class="nombre">Squirtle</p>
+            </td>
+            <td id="wartortle">
+                <p class="nombre">Wartortle</p>
+            </td>
+        </tr>
+        <tr></tr>
+    </table>
+
+    <div id="formulario">
+        <form action="maiñto:pepe@gmail.com">
+            <div class="elemento">
+                <label for="nombre">Nombre*</label>
+                <input type="text" name="nombre" id="nombre" required>
+            </div>
+            <div class="elemento">
+                <label for="email">email*:</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div class="elemento">
+                <label for="fncacimineto">Fecha de nacimiento</label>
+                <input type="date" name="fnacimineto" id="fnacimiento">
+            </div>
+
+            <div class="elemento">
+                <input type="reset" value="Borrar">
+                <input type="submit" value="Enviar">
+            </div>
+
+            <div class="ejemplo_display">
+                
+            </div>
+        </form>
+    </div>
+
+    <!--#ejemplo_display
+    <div id="ejemplo_display">
+        //div.dentro
+        <div class="dentro">1</div>
+        <div class="dentro">2</div>
+        <div class="dentro">3</div>
+    </div>-->
+
+</body>
+
+</html>

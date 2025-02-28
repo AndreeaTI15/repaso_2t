@@ -1,0 +1,105 @@
+@font-face{
+    font-family: pokemon;
+    src: url(../Pokemon\ Solid.ttf);
+}
+:root{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(../img/fondo.png) ;
+    background-size: cover;
+}
+
+h1{
+    font-family: pokemon;
+    color: yellow;
+    text-shadow: -2px 0 blue, 0 6px blue, 3px 0 blue, 0 -1px blue;
+    font-size: 4rem;
+    text-align: center;
+}
+
+table{
+    width: 80%;
+    margin: auto;
+    border: 1px solid black;
+}
+
+td{
+    background-color: lightgray;
+    width: 25%;
+    text-align: center;
+}
+
+img{
+    
+    height: 150px;
+}
+
+.nombre{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-align: center;
+}
+
+tr#con_imagen_de_fondo{
+    height: 250px;
+}
+/*todos los td que tengan el tr de con_imagen_de_fondo*/
+tr#con_imagen_de_fondo td{
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 15%;
+    background-position: 50%;
+}
+
+td#charmeleon{
+    background-image: url('../img/Charmeleon.png');
+}
+
+td#charizard{
+    background-image: url('../img/Charizard.png');
+}
+
+td#squirtle{
+    background-image: url('../img/Squirtle.png');
+}
+
+td#wartortle{
+    background-image: url('../img/Wartorle.png');
+}
+
+/*aqui empieza el formulario*/
+
+#formulario{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-family: sans-serif;
+    width: 80%;
+    margin: auto;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    
+    
+}
+
+.elemento label, .elemento input {
+    display: inline-block;
+    width: 10rem;
+}
+/*Ejemplo de display inline-block
+#ejemplo_display{
+    background-color: brown;
+    width: 800%;
+    height: 300px;
+    padding: 1rem;
+}
+
+.dentro{
+    background-color: yellow;
+    min-width: 100px;
+    border: 1px solid red;
+    margin: 1rem;
+    display: inline-block;
+}*/
